@@ -143,6 +143,7 @@ binary_search(my_list, 89)
 # alt_binary_search without comments
 
 def alt_binary_search(sorted_list, target_item):
+  sorted_list = sorted(sorted_list)
   start, end = 0, len(sorted_list) - 1
   print()
   
@@ -163,7 +164,7 @@ def alt_binary_search(sorted_list, target_item):
 
 # Try alt_binary_search
 print()
-my_list = sorted([34, 12, 54, 6, 2, 9, 10, 4, 7, 3])
+my_list = [34, 12, 54, 6, 2, 9, 10, 4, 7, 3]
 print(my_list)
 print('Results from alt_binary_search')
 print(alt_binary_search(my_list, 1))
