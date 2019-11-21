@@ -214,7 +214,7 @@ def binary_search_recursive(a, start, end, x):
 
   # a     --> sorted list
   # start --> starting index
-  # end   --> stoping index
+  # end   --> stopping index
   # x     --> item to find
 
   if (start <= end):
